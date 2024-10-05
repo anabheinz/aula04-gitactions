@@ -29,6 +29,7 @@ jobs:
           
     tarefa2:
         name: Segunda tarefa
+        needs: tarefa1
         runs-on: ubuntu-latest
         steps:
           - name: Passo 4
@@ -40,6 +41,7 @@ jobs:
 
     tarefa3:
         name: Terceira tarefa
+        needs: tarefa2
         runs-on: ubuntu-latest
         steps:
           - name: Passo 7
