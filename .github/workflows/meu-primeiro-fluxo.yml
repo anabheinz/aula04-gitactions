@@ -26,8 +26,8 @@ jobs:
           run: echo "Executndo o passo 2"
         - name: Passo 3
           run: echo "Executando o passo 3"
-
-      tarefa2:
+          
+    tarefa2:
         name: Segunda tarefa
         runs-on: ubuntu-latest
         steps:
@@ -38,8 +38,7 @@ jobs:
           - name: Passo 6
             run: echo "Executando o passo 6"
 
-
-      tarefa3:
+    tarefa3:
         name: Terceira tarefa
         runs-on: ubuntu-latest
         steps:
